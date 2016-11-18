@@ -1,5 +1,5 @@
 README file for DRLB LDM server
-Last Modified: 10/24/2016
+Last Modified: 11/18/2016
 
 Contents:
 --------
@@ -43,8 +43,8 @@ System administrators, follow the instructions below to build an RPM
 for distribution:
 
 $ cd $HOME; mkdir -pv git; cd $HOME/git
-$ git clone https://github.com/datareel/datareel
-$ cd ${HOME}/git/datareel/load_balancer/rpm_builder
+$ git clone https://github.com/datareel/LDM-load-balancer
+$ cd ${HOME}/git/LDM-load-balancer/rpm_builder
 
 RHEL7/CENTOS7:
 $ ./make_ldm_rpm_package.sh rhel7
@@ -73,9 +73,9 @@ server:
 $ cd $HOME
 $ mkdir -pv git
 $ cd $HOME/git
-$ git clone https://github.com/datareel/datareel
-$ source $HOME/git/datareel/env/gnu_env.sh
-$ cd $HOME/git/datareel/load_balancer/drlb_ldm
+$ git clone https://github.com/datareel/LDM-load-balancer
+$ source $HOME/git/LDM-load-balancer/env/gnu_env.sh
+$ cd $HOME/git/LDM-load-balancer
 $ make
 $ sudo su root -c 'make install_root'
 
