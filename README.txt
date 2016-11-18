@@ -75,7 +75,7 @@ $ mkdir -pv git
 $ cd $HOME/git
 $ git clone https://github.com/datareel/LDM-load-balancer
 $ source $HOME/git/LDM-load-balancer/env/gnu_env.sh
-$ cd $HOME/git/LDM-load-balancer
+$ cd $HOME/git/LDM-load-balancer/drlb_ldm
 $ make
 $ sudo su root -c 'make install_root'
 
